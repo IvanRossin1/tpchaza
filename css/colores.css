@@ -1,7 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.kanit {
+  font-family: "Kanit", sans-serif;
+}
+
+.roboto {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.fw200 {
+  font-weight: 200;
 }
 
 header {
@@ -9,10 +22,19 @@ header {
   height: 80px;
   width: 100%;
   margin: auto; /* messive para centrar un elementoque no ocupe el 100% del espacio */
+  display: flex;
+  justify-content: space-between;
 }
-
+header .mark {
+  background-color: rgb(11, 83, 59);
+  color: aliceblue;
+  padding: 10px;
+  font-size: 20pt;
+}
+header .social {
+}
 footer {
-  height: 20px;
+  height: 60px;
   width: 100%;
   background-color: darkgray;
   position: fixed;
