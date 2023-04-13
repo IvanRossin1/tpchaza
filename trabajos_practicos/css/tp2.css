@@ -67,6 +67,7 @@
 .icono.material-icons-outlined
 {
   font-size: 24px; /* le cambio el tamaño al texto/icono*/
+  background-color: darkgray;
 }
 
 .busqueda input[type="search"]{
@@ -87,7 +88,7 @@
 
 .busqueda input[type="submit"]:focus /*focus es cuado clike*/ {
 
-  font-size: 23pt;
+  font-size: 15pt;
   transition: all 0.3s ease;
 
 }
