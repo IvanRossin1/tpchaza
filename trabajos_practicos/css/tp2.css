@@ -44,8 +44,8 @@
 
 .busqueda{
   position: absolute;
-  bottom: -17px;
-  background-color: aqua;
+  bottom: -26px;
+  background-color: #ffffff;
   width: 86%;
   height: 60px;
    margin: auto; /*centrar la caja de manera horizontal */
@@ -66,11 +66,31 @@
 
 .icono.material-icons-outlined
 {
-  font-size: 30px;
+  font-size: 24px; /* le cambio el tamaño al texto/icono*/
 }
 
+.busqueda input[type="search"]{
+  padding: 0 20px;
+  height: 100%;
+  width: calc(100% - 120px);
+  border: none;/*borrar borde*/
+  
+}
 
+.busqueda input[type="submit"]{
+  height: 100%; 
+  width: 60px; 
+  border: none;/*borrar borde*/
+ 
+  font-size: 12pt;
+}
 
+.busqueda input[type="submit"]:focus /*focus es cuado clike*/ {
+
+  font-size: 23pt;
+  transition: all 0.3s ease;
+
+}
 
 
 
