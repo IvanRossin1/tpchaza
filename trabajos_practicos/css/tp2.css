@@ -53,7 +53,9 @@
   display: flex;
   align-items: center;
    justify-content: space-between; /* espacio identico entre los tres elementos */
-}
+  border-radius: 10px;
+  overflow: hidden;
+  }
 
 .busqueda .icono{
   background-color: darkgray;
@@ -75,6 +77,7 @@
   height: 100%;
   width: calc(100% - 120px);
   border: none;/*borrar borde*/
+
   
 }
 
@@ -82,7 +85,7 @@
   height: 100%; 
   width: 60px; 
   border: none;/*borrar borde*/
- 
+  background-color: rgb(212, 212, 212); 
   font-size: 12pt;
 }
 
