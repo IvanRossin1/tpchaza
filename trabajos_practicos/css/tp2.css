@@ -42,6 +42,11 @@
     height: 300px;
 }
 
+.portada .texto {
+  position: absolute;
+  bottom: 60px;
+}
+
 .busqueda{
   position: absolute;
   bottom: -26px;
