@@ -192,6 +192,7 @@
   padding: 10px;
 }
 .card {
+  height: 160px;
   display: flex;
   flex: 1 0 160px;
   width: 90%;
@@ -204,11 +205,18 @@
 {
   flex:0 0 40%;
   background-color: rgb(45, 224, 21);
+  overflow: hidden;
+}
+
+.img img{
+  height: 100%;
+  object-fit: cover;
+
 }
 
 .card .datosresto
 {
   flex:0 0 60%;
-  background-color: rgb(21, 41, 224);
+  background-color: rgb(142, 191, 255);
 }
 /*-----------FIN PRODUCTOS-----------*/
